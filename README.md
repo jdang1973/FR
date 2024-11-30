@@ -1,26 +1,24 @@
-Subject: Retirement Gift for Allen Liu  
+Subject: Contribution for Allen's Retirement Gift
 
-Hi Team,  
+Allen Liu is retiring soon, with his last working day on 1/31/2025. We’re organizing a retirement gift as a token of appreciation from the NFT team. Contributions are voluntary, and we plan to give him an Amazon gift card.
 
-As you may know, Allen Liu is retiring soon, with his last working day on 1/31/2025. We’re planning to present him with an Amazon gift card as a token of appreciation from the NFT team.  
+If you’d like to contribute, please send funds via Venmo.
 
-If you’d like to contribute, you can send funds via Venmo. This is completely voluntary.  
+Additionally, we’re planning a lunch with Allen near the Minneapolis Federal Bank in January 2025 before his last day. Let me know if you’re interested in joining!
 
-We’re also planning a farewell lunch near the Minneapolis Federal Bank in January 2025. Details to follow.  
+--
 
-Thank you!
+Subject: Retirement Lunch for Allen Liu
 
+Dear Team,
 
----
+We’re hosting a retirement lunch to celebrate Allen Liu and his incredible contributions. Here are the details:
 
-**Subject: Contribution for Allen Liu’s Retirement Gift**  
+Date: [Insert Date]
+Time: [Insert Time]
+Location: [Insert Restaurant Name/Address near Minneapolis Federal Bank]
 
-Dear Team,  
+Please let me know if you can join us. Looking forward to celebrating together!
 
-Allen Liu is retiring soon, with his last working day on 1/31/2025. To show our appreciation, we’re organizing a gift—a retirement Amazon gift card. Contributions are voluntary and can be sent via Venmo.  
-
-We’re also planning a farewell lunch near the Minneapolis Federal Bank in January 2025. Let me know if you'd like to join or contribute.  
-
-Feel free to forward this email to anyone who may have missed it.  
-
-Thank you!  
+Best regards,
+[Your Name]![image](https://github.com/user-attachments/assets/70e37816-e318-4c1a-b004-e68490ff7d33)
