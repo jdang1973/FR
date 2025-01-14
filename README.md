@@ -1,18 +1,19 @@
-Here’s a table of **Test Plan** required fields to sync between **Jira-Xray** and **HP ALM** using **Tasktop**:
+Here’s a table of **Test Case** required fields to sync between **Jira-Xray** and **HP ALM** using **Tasktop**:
 
 | **Field Category**      | **Jira-Xray Field**           | **HP ALM Field**               | **Notes**                                    |
 |--------------------------|------------------------------|---------------------------------|----------------------------------------------|
-| **Plan ID**             | Test Plan Key                | Test Plan ID                   | Unique identifier for the test plan.         |
-| **Name/Title**          | Summary                     | Name                           | Brief title or name of the test plan.        |
-| **Description**         | Description                 | Description                    | Detailed explanation or purpose of the test plan.|
-| **Test Cases**          | Linked Test Keys            | Linked Tests                   | Links associated test cases to the plan.     |
-| **Status**              | Status                      | Status                         | Current state of the test plan (e.g., Active).|
-| **Version**             | Fix Version/Affected Version| Release/Version                | Links the test plan to a specific software version or release.|
-| **Owner**               | Assignee/Reporter           | Author                         | Individual responsible for the test plan.    |
-| **Start Date**          | Start Date                  | Start Date                     | Planned start date for the test plan.        |
-| **End Date**            | End Date                    | End Date                       | Planned end date for the test plan.          |
-| **Environment**         | Test Environment            | Test Configuration             | Specifies the environment details for testing.|
+| **Test Case ID**        | Test Issue Key               | Test ID                        | Unique identifier for the test case.         |
+| **Name/Title**          | Summary                     | Name                           | Brief title or name of the test case.        |
+| **Description**         | Description                 | Description                    | Detailed explanation of the test case purpose.|
+| **Steps**               | Test Steps                  | Design Steps                   | Step-by-step instructions for execution.     |
+| **Priority**            | Priority                    | Priority                       | Indicates the importance of the test case.   |
+| **Type**                | Test Type (Manual/Automated)| Test Type                      | Classification of the test case type.        |
+| **Status**              | Status                      | Status                         | Current state of the test case (e.g., Draft, Approved).|
+| **Version**             | Fix Version/Affected Version| Version                        | Links the test case to a specific release or version.|
+| **Owner**               | Assignee/Reporter           | Author                         | Individual responsible for creating/updating the test case.|
 | **Tags/Labels**         | Labels                      | Tags/Keywords                  | Metadata for categorization or filtering.    |
-| **Attachments**         | Attachments                 | Attachments                    | Supporting documents or files related to the plan. |
+| **Attachments**         | Attachments                 | Attachments                    | Supporting documents, screenshots, or files.|
+| **Test Case Folder**    | Repository Path             | Folder Path                    | Location of the test case within the hierarchy.|
+| **Execution History**   | Linked Executions           | Execution History              | Links to related test executions for traceability.|
 
-This mapping ensures a seamless synchronization of **Test Plan** data between **Jira-Xray** and **HP ALM** using **Tasktop**, enabling effective test planning and traceability.
+This table ensures comprehensive synchronization of **Test Case** data between **Jira-Xray** and **HP ALM** using **Tasktop** for effective test management.
