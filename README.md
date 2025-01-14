@@ -1,17 +1,17 @@
-Here’s a table of **Test Set** required fields to sync between **Jira-Xray** and **HP ALM** using **Tasktop**:
+Here’s a table of **Test Execution** required fields to sync between **Jira-Xray** and **HP ALM** using **Tasktop**:
 
-| **Field Category**      | **Jira-Xray Field**           | **HP ALM Field**               | **Notes**                                    |
-|--------------------------|------------------------------|---------------------------------|----------------------------------------------|
-| **Test Set ID**         | Test Set Issue Key           | Test Set ID                    | Unique identifier for the test set.          |
-| **Name/Title**          | Summary                     | Name                           | Brief name or title of the test set.         |
-| **Description**         | Description                 | Description                    | Detailed explanation of the test set.        |
-| **Test Cases**          | Linked Test Issues          | Contained Tests                | Test cases associated with the test set.     |
-| **Priority**            | Priority                    | Priority                       | Importance of the test set.                  |
-| **Status**              | Status                      | Status                         | Current state of the test set (e.g., Draft, Active). |
-| **Version**             | Fix Version/Affected Version| Release/Build                  | Associated software version or build.        |
-| **Owner**               | Assignee/Reporter           | Author                         | Person responsible for the test set.         |
-| **Attachments**         | Attachments                 | Attachments                    | Supporting documents or files for the test set. |
-| **Tags/Labels**         | Labels                      | Tags/Keywords                  | Metadata for categorization or filtering.    |
+| **Field Category**       | **Jira-Xray Field**           | **HP ALM Field**                | **Notes**                                    |
+|---------------------------|------------------------------|----------------------------------|----------------------------------------------|
+| **Execution ID**          | Test Execution Key           | Run ID                          | Unique identifier for the test execution.    |
+| **Test Case Reference**   | Linked Test Key              | Test Instance ID                | Links the execution to the associated test case.|
+| **Execution Status**      | Execution Status             | Status                          | Syncs execution outcomes like Passed, Failed, etc.|
+| **Start Date**            | Start Date                  | Execution Start Date            | Tracks when the execution began.             |
+| **End Date**              | End Date                    | Execution End Date              | Tracks when the execution completed.         |
+| **Environment**           | Test Environment             | Test Configuration              | Specifies the environment details (e.g., OS, browser).|
+| **Tester**                | Executed By                 | Responsible Tester              | Maps the tester assigned for execution.      |
+| **Duration**              | Execution Duration           | Duration                        | Time taken to complete the test execution.   |
+| **Defects**               | Linked Defects (Issue Keys)  | Linked Defects                  | Associates reported defects with the execution.|
+| **Version/Build**         | Fix Version/Affected Version | Release/Build                   | Links the execution to a specific software version.|
+| **Comments**              | Execution Notes/Comments     | Execution Comments              | Additional details or observations about the execution. |
 
-This field mapping ensures smooth synchronization of **Test Sets** between **Jira-Xray** and **HP ALM** using **Tasktop**.
-
+This configuration ensures comprehensive synchronization of test execution data between **Jira-Xray** and **HP ALM** using **Tasktop** for efficient test management and traceability.
