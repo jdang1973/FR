@@ -1,17 +1,18 @@
-Here’s a table of **Test Execution** required fields to sync between **Jira-Xray** and **HP ALM** using **Tasktop**:
+Here’s a table of **Test Plan** required fields to sync between **Jira-Xray** and **HP ALM** using **Tasktop**:
 
-| **Field Category**       | **Jira-Xray Field**           | **HP ALM Field**                | **Notes**                                    |
-|---------------------------|------------------------------|----------------------------------|----------------------------------------------|
-| **Execution ID**          | Test Execution Key           | Run ID                          | Unique identifier for the test execution.    |
-| **Test Case Reference**   | Linked Test Key              | Test Instance ID                | Links the execution to the associated test case.|
-| **Execution Status**      | Execution Status             | Status                          | Syncs execution outcomes like Passed, Failed, etc.|
-| **Start Date**            | Start Date                  | Execution Start Date            | Tracks when the execution began.             |
-| **End Date**              | End Date                    | Execution End Date              | Tracks when the execution completed.         |
-| **Environment**           | Test Environment             | Test Configuration              | Specifies the environment details (e.g., OS, browser).|
-| **Tester**                | Executed By                 | Responsible Tester              | Maps the tester assigned for execution.      |
-| **Duration**              | Execution Duration           | Duration                        | Time taken to complete the test execution.   |
-| **Defects**               | Linked Defects (Issue Keys)  | Linked Defects                  | Associates reported defects with the execution.|
-| **Version/Build**         | Fix Version/Affected Version | Release/Build                   | Links the execution to a specific software version.|
-| **Comments**              | Execution Notes/Comments     | Execution Comments              | Additional details or observations about the execution. |
+| **Field Category**      | **Jira-Xray Field**           | **HP ALM Field**               | **Notes**                                    |
+|--------------------------|------------------------------|---------------------------------|----------------------------------------------|
+| **Plan ID**             | Test Plan Key                | Test Plan ID                   | Unique identifier for the test plan.         |
+| **Name/Title**          | Summary                     | Name                           | Brief title or name of the test plan.        |
+| **Description**         | Description                 | Description                    | Detailed explanation or purpose of the test plan.|
+| **Test Cases**          | Linked Test Keys            | Linked Tests                   | Links associated test cases to the plan.     |
+| **Status**              | Status                      | Status                         | Current state of the test plan (e.g., Active).|
+| **Version**             | Fix Version/Affected Version| Release/Version                | Links the test plan to a specific software version or release.|
+| **Owner**               | Assignee/Reporter           | Author                         | Individual responsible for the test plan.    |
+| **Start Date**          | Start Date                  | Start Date                     | Planned start date for the test plan.        |
+| **End Date**            | End Date                    | End Date                       | Planned end date for the test plan.          |
+| **Environment**         | Test Environment            | Test Configuration             | Specifies the environment details for testing.|
+| **Tags/Labels**         | Labels                      | Tags/Keywords                  | Metadata for categorization or filtering.    |
+| **Attachments**         | Attachments                 | Attachments                    | Supporting documents or files related to the plan. |
 
-This configuration ensures comprehensive synchronization of test execution data between **Jira-Xray** and **HP ALM** using **Tasktop** for efficient test management and traceability.
+This mapping ensures a seamless synchronization of **Test Plan** data between **Jira-Xray** and **HP ALM** using **Tasktop**, enabling effective test planning and traceability.
