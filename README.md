@@ -1,23 +1,18 @@
-### Software Test Traceability Matrix Definition Template
-
-A **Software Test Traceability Matrix (RTM)** is a document that establishes a bi-directional relationship between project requirements, test cases, and defects to ensure comprehensive test coverage and alignment with project objectives.
-
-### Purpose:
-1. **Requirement Validation**: Confirm all requirements are addressed through testing.
-2. **Defect Tracking**: Link defects to requirements and test cases for efficient resolution.
-3. **Coverage Assurance**: Identify gaps in testing to mitigate risks.
-4. **Transparency**: Provide a clear traceability trail for audits and stakeholders.
-
-### Key Components:
-- **Requirement ID**: Unique identifier for each requirement.
-- **Requirement Description**: Summary of the requirement.
-- **Test Case ID**: Identifier for test cases linked to the requirement.
-- **Defect ID**: Identifier for defects discovered during testing.
-- **Test Status**: Current state of the test (e.g., Passed, Failed, Not Run).
-- **Remarks**: Notes on observations or pending actions.
-
-This template ensures traceability across the software development lifecycle, promoting quality, accountability, and efficiency.
+Xray Software Test Traceability Matrix Template for Financial Services Sector
 
 
+Requirement ID	Requirement Summary	Test Case Key	Test Summary	Test Execution Status	Defect Key	Comments
+FR001	Secure login with MFA	TC-001	Validate login process with MFA	Passed	N/A	Verified in staging
+FR002	Audit transaction logs	TC-002	Ensure all transactions are logged	Failed	DEF-101	Awaiting fix
+FR003	Data encryption	TC-003	Check encryption at rest and in transit	Passed	N/A	Reviewed with security
+FR004	Generate daily statements	TC-004	Validate account statement generation	Not Executed	N/A	Scheduled for next release
+FR005	Role-based access control	TC-005	Verify access based on roles	Blocked	DEF-102	Dependent on permissions fix
 
-----
+Key Fields:
+Requirement ID: Unique ID linking to the requirement in Xray.
+Requirement Summary: Short description of the requirement.
+Test Case Key: Xray test case identifier (e.g., TC-001).
+Test Summary: High-level overview of the test objective.
+Test Execution Status: Test status (e.g., Passed, Failed, Blocked, Not Executed).
+Defect Key: Jira/Xray defect identifier (e.g., DEF-101).
+Comments: Additional notes or status updates.
