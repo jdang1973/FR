@@ -1,31 +1,37 @@
 
+Priority	Test Scenario	Source (HP ALM)	Target (Jira - Xray)	Test Objective
+1	Validate that all Test Sets are migrated without data loss	Test Set	Test Set (Xray Test Set)	Ensure the total number of test sets matches between ALM and Jira
+2	Validate the unique ID/reference of Test Sets	Test Set ID	Test Set Key	Confirm that references to Test Sets are preserved or properly mapped
+3	Validate Test Set names/titles are accurately migrated	Test Set Name	Test Set Summary	Ensure the name/title is correctly reflected post-migration
+4	Validate the association of Test Cases within a Test Set	Test Cases in Test Set	Tests in Test Set	Ensure Test Sets contain the correct associated test cases
+5	Validate test execution ordering in Test Sets	Test Order in Test Set	Test Execution Order	Ensure test execution order is preserved if applicable
+6	Validate description and long text fields of Test Set	Test Set Description	Test Set Description	Confirm long text fields migrate without truncation
+7	Validate custom fields specific to Test Sets	Custom Fields	Custom Fields	Ensure all custom fields are transferred accurately
+8	Validate status/state of Test Sets	Status	Status	Check that test set statuses are mapped correctly
+9	Validate test folder hierarchy (if applicable)	Folder Path/Structure	Xray Test Repository Path	Ensure that Test Set folders and structure are preserved
+10	Validate migration of attachments within Test Sets	Attachments	Attachments	Confirm all files are transferred and accessible
+11	Validate comments and history within Test Sets	Comments/History	Comments/Activity Log	Check that notes, audit trails, and discussions are retained
+12	Validate links to Test Cases	Test Case Link	Test Issue Link	Ensure relationships to tests are maintained
+13	Validate migration timestamp fields	Created/Modified Date	Created/Updated Timestamp	Ensure original timestamps are migrated
+14	Validate Test Set ownership/assigned users	Owner/Assigned To	Reporter/Assignee	Ensure user mappings are accurate and respected
+15	Validate migrated Test Set is searchable	Test Set Name or ID	Xray Search (JQL)	Confirm search and filtering capabilities work post-migration
+16	Validate linked defects associated with Test Sets	Defects Linked	Defect Issues	Confirm traceability and linkage is preserved
+17	Validate test set tags or labels	Tags/Labels	Labels	Ensure labeling conventions are maintained
+18	Validate user permissions on Test Sets	User Roles/Permissions	Project Permissions	Ensure users retain correct permissions to view/edit Test Sets
+19	Validate test cycle association (if Test Set is part of a cycle)	Test Set to Cycle Mapping	Xray Test Plan/Test Exec	Ensure cycle-level context is migrated properly
+20	Validate audit trail or change history	Audit Logs	History Tab	Confirm audit compliance by reviewing changes
+21	Validate Test Set links to Requirements (traceability)	Requirements Traceability	Requirement Links	Ensure requirement coverage is retained
+22	Validate folder or module-based grouping of Test Sets	Folder Module Grouping	Test Repository Folder	Check organizational structure
+23	Validate test set priority or importance field	Priority Field	Priority Field	Ensure importance or priority metadata is migrated
+24	Validate bi-directional sync (if enabled) via Tasktop	ALM ↔ Tasktop	Tasktop ↔ Jira	Ensure changes in ALM are reflected in Jira and vice versa if two-way sync is set up
+25	Validate error handling and exception logging during migration	Migration Logs	Jira Logs	Ensure migration errors are logged and testable
+Would you like a downloadable version of this (CSV, Excel, or PDF)? Or need help customizing this for your organization’s specific workflow or tool versions?
 
-| **Priority** | **Test Scenario**                                                     | **Source (HP ALM)**                  | **Target (Jira - Xray)**              | **Test Objective**                                                                 |
-|--------------|-----------------------------------------------------------------------|--------------------------------------|----------------------------------------|------------------------------------------------------------------------------------|
-| 1            | Migrate manual test cases                                             | Test Plan → Manual Tests             | Issue Type = Test (Manual)             | Ensure all test cases are migrated and visible in Jira Xray                        |
-| 2            | Validate test case steps                                              | Design Steps                         | Test Steps                             | Verify step details (action, expected result) are preserved                        |
-| 3            | Validate test case descriptions                                       | Test Case Description                | Description Field                      | Confirm rich-text descriptions are intact and complete                             |
-| 4            | Validate test case names                                              | Test Name                            | Summary Field                          | Ensure test names are preserved without truncation or corruption                   |
-| 5            | Validate folder structure/tag mapping                                 | Test Plan Folder Structure           | Labels / Custom Field / Component      | Ensure test case organization is preserved or appropriately mapped                 |
-| 6            | Validate custom fields migration                                      | User-defined fields in Test Plan     | Custom Fields                          | Confirm custom field values are migrated correctly                                |
-| 7            | Validate test case priority                                           | Priority Field                       | Priority Field                         | Check that priority is accurately mapped                                           |
-| 8            | Validate test case owner/author                                       | Owner                                | Reporter / Custom Field                | Confirm original authorship is retained                                            |
-| 9            | Validate test case attachments                                        | Attached to Test or Steps            | Jira Attachments                       | Ensure attachments are migrated and accessible                                     |
-| 10           | Validate status field migration                                       | Status (e.g., Ready, Draft)          | Custom Status or Field in Jira         | Confirm test status is accurately reflected                                        |
-| 11           | Validate test case creation date                                      | Created Date                         | Created Date                           | Ensure timestamps are consistent with original ALM data                            |
-| 12           | Validate last modified date                                           | Last Modified Date                   | Updated Date                           | Validate modification metadata is preserved                                        |
-| 13           | Validate automated flag indicators                                    | Field = Automated = Yes/No           | Custom Field in Jira                   | Ensure automation indicator is mapped                                              |
-| 14           | Validate original ALM test ID is preserved                            | Test ID                              | Custom Field in Jira                   | Enable traceability from Jira back to ALM                                          |
-| 15           | Validate mapping of test folders to Jira components or labels         | Folder Name                          | Component / Label                      | Organize test cases meaningfully in Jira                                           |
-| 16           | Validate formatting in test steps (e.g., bullets, bold text)          | Step Description Formatting          | Step Formatting                        | Ensure rich-text is preserved                                                      |
-| 17           | Validate version history or revision notes (if required)              | Test Case History                    | Comments / Custom Fields               | Check for migration of version-related information                                 |
-| 18           | Validate linked test requirements (coverage mapping)                  | Requirement Coverage                 | Xray Requirement Links                 | Ensure coverage relationships are intact                                           |
-| 19           | Validate cross-referenced test case links                             | Linked Test Cases                    | Issue Links                            | Confirm referenced tests remain linked                                             |
-| 20           | Validate duplicate handling                                            | Duplicate Tests                      | Jira Dedupe                            | Ensure duplicate records are not created                                           |
-| 21           | Validate Tasktop field mappings are respected                         | Tasktop Integration Config           | Jira Fields                            | Ensure field mappings function per configuration                                   |
-| 22           | Validate large test cases (>10 steps) migration                       | Test Cases with Many Steps           | Issue Type = Test                      | Confirm that all steps are migrated even in large test cases                       |
-| 23           | Validate test case sorting order                                      | Folder/ID-based Sorting              | Jira Test Repository View              | Ensure test organization/order is maintained                                       |
-| 24           | Validate handling of empty or partial test cases                      | Test Cases without Steps             | Jira Tests                             | Confirm migration handles partial data gracefully                                  |
-| 25           | Perform end-to-end reconciliation report                              | Full Test Plan                       | Jira Project Tests                     | Final validation of test count and data completeness                               |
+
+
+
+
+
+
 
 
