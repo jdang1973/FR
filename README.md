@@ -1,4 +1,4 @@
- Here is a table listing the **Top 25 Test Scenarios** to validate the successful migration of issue type **"Test"** from **HP ALM to Jira Xray via Tasktop**, prioritized by importance:
+
 
 | **Priority** | **Test Scenario**                                                     | **Source (HP ALM)**                  | **Target (Jira - Xray)**              | **Test Objective**                                                                 |
 |--------------|-----------------------------------------------------------------------|--------------------------------------|----------------------------------------|------------------------------------------------------------------------------------|
@@ -28,9 +28,7 @@
 | 24           | Validate handling of empty or partial test cases                      | Test Cases without Steps             | Jira Tests                             | Confirm migration handles partial data gracefully                                  |
 | 25           | Perform end-to-end reconciliation report                              | Full Test Plan                       | Jira Project Tests                     | Final validation of test count and data completeness                               |
 
----
 
-Would you like this in **Excel**, **CSV**, or a **Jira import format**?
 
 
 
