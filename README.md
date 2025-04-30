@@ -1,42 +1,50 @@
 
 
-Software Quality Engineering Expectations in SAFe
 1. Built-In Quality
+Ensure quality is integrated at every stage: planning, development, testing, and release.
 
-Embed quality at every stage: requirements, development, testing, and deployment.
+Collaborate on testable acceptance criteria and enforce robust Definitions of Done (DoD).
 
-Apply practices like Test-Driven Development (TDD), Behavior-Driven Development (BDD), and Acceptance Test-Driven Development (ATDD).
+Apply TDD, BDD, and ATDD to align testing with business value.
 
-Ensure "Definition of Done" (DoD) includes unit tests, integration tests, automation, and acceptance validation.
+2. Continuous Testing
+Begin testing activities early in the development cycle (“shift left”).
 
-2. Continuous Testing and Automation
+Execute ongoing validation through automated and manual testing across all layers.
 
-Integrate automated tests into the Continuous Integration/Continuous Deployment (CI/CD) pipeline.
+Validate functionality, performance, security, and usability.
 
-Perform unit, integration, functional, regression, and performance testing continuously during sprints.
+3. Test Automation
+Prioritize automation of unit, integration, API, regression, and E2E tests.
 
-Shift testing left by creating test cases during backlog refinement and planning.
+Integrate tests into CI/CD pipelines for fast, repeatable feedback.
 
-3. Collaboration and Team Alignment
+Maintain automation scripts in sync with evolving features.
 
-Collaborate with developers, Product Owners, and Business Owners to define clear, testable acceptance criteria.
+4. Collaboration & Agile Team Integration
+Participate fully in PI Planning, Sprint Planning, Standups, Reviews, and Retrospectives.
 
-Participate actively in Scrum events (daily standups, sprint reviews, retrospectives) and SAFe ceremonies (PI Planning, Inspect & Adapt).
+Partner with Product Owners and developers to refine user stories and acceptance tests.
 
-4. Quality Transparency
+Encourage shared responsibility for quality across the Agile Release Train (ART).
 
-Maintain visibility of testing status, defect trends, coverage, and risks through dashboards and regular reporting.
+5. Transparency & Metrics
+Track and share test coverage, defect trends, and quality status via dashboards.
 
-Raise and communicate quality risks early to ensure quick mitigation.
+Ensure visibility of blockers and risks to support real-time decision-making.
 
-5. End-to-End Responsibility
+Provide traceability from Features → Stories → Test Cases → Results.
 
-Validate system functionality across team boundaries (ART level) through integration and exploratory testing.
+6. Customer-Centric Quality
+Ensure features meet business goals and deliver real customer value.
 
-Ensure system-level and non-functional requirements (e.g., security, performance, compliance) are tested thoroughly.
+Perform exploratory testing to uncover edge cases and usability issues.
 
-6. Continuous Improvement
+Validate both functional and non-functional requirements before release.
 
-Identify gaps and propose improvements in retrospectives and Inspect & Adapt workshops.
+7. Continuous Improvement
+Reflect in retrospectives and Inspect & Adapt workshops on what can be improved.
 
-Stay updated on new tools, frameworks, and SAFe quality practices to optimize testing processes.
+Identify gaps in tooling, coverage, or quality processes and recommend solutions.
+
+Stay current with new testing strategies and SAFe quality guidance.
