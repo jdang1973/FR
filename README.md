@@ -1,4 +1,22 @@
 
+7. Customer-Centric Testing
+Focus on user experience, edge cases, and business-critical paths.
+
+Conduct exploratory testing to uncover unexpected behavior.
+
+Validate non-functional requirements (e.g., performance, accessibility).
+
+8. Continuous Improvement
+Identify and address testing bottlenecks in retrospectives and Inspect & Adapt workshops.
+
+Review test flakiness, coverage gaps, and tooling effectiveness regularly.
+
+Stay up to date with evolving SAFe quality standards and agile testing practices.
+
+
+
+
+===
 Scrum Values & Best Practices for Software Quality Engineering in SAFe
 
 🔹 1. Commitment
