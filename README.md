@@ -1,5 +1,6 @@
 
 Scrum Values & Best Practices for Software Quality Engineering in SAFe
+
 🔹 1. Commitment
 Scrum Value: Dedication to team goals and delivering high-quality increments.
 
@@ -10,6 +11,7 @@ Own quality delivery from story kickoff to production.
 Participate in PI Planning and team commitments.
 
 Ensure Definition of Done (DoD) includes functional and non-functional test completion.
+
 
 🔹 2. Courage
 Scrum Value: Willingness to raise issues and drive change.
@@ -22,6 +24,7 @@ Challenge scope creep or weak acceptance criteria to protect quality.
 
 Promote automation and process improvements even if initial effort is high.
 
+
 🔹 3. Focus
 Scrum Value: Prioritize what's most valuable.
 
@@ -33,6 +36,7 @@ Limit WIP (Work in Progress) to ensure deep, not shallow, testing.
 
 Focus automation on stable, high-use components first.
 
+
 🔹 4. Openness
 Scrum Value: Transparency in progress and challenges.
 
@@ -43,6 +47,7 @@ Share test progress, blockers, and risks daily.
 Keep test case repositories and test coverage visible to all.
 
 Encourage collaborative story grooming with testers, developers, and product owners.
+
 
 🔹 5. Respect
 Scrum Value: Recognize each team member’s contributions.
