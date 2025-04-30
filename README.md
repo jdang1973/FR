@@ -1,50 +1,56 @@
 
+Scrum Values & Best Practices for Software Quality Engineering in SAFe
+🔹 1. Commitment
+Scrum Value: Dedication to team goals and delivering high-quality increments.
 
-1. Built-In Quality
-Ensure quality is integrated at every stage: planning, development, testing, and release.
+Best Practices:
 
-Collaborate on testable acceptance criteria and enforce robust Definitions of Done (DoD).
+Own quality delivery from story kickoff to production.
 
-Apply TDD, BDD, and ATDD to align testing with business value.
+Participate in PI Planning and team commitments.
 
-2. Continuous Testing
-Begin testing activities early in the development cycle (“shift left”).
+Ensure Definition of Done (DoD) includes functional and non-functional test completion.
 
-Execute ongoing validation through automated and manual testing across all layers.
+🔹 2. Courage
+Scrum Value: Willingness to raise issues and drive change.
 
-Validate functionality, performance, security, and usability.
+Best Practices:
 
-3. Test Automation
-Prioritize automation of unit, integration, API, regression, and E2E tests.
+Surface defects, quality risks, and tech debt early—even when unpopular.
 
-Integrate tests into CI/CD pipelines for fast, repeatable feedback.
+Challenge scope creep or weak acceptance criteria to protect quality.
 
-Maintain automation scripts in sync with evolving features.
+Promote automation and process improvements even if initial effort is high.
 
-4. Collaboration & Agile Team Integration
-Participate fully in PI Planning, Sprint Planning, Standups, Reviews, and Retrospectives.
+🔹 3. Focus
+Scrum Value: Prioritize what's most valuable.
 
-Partner with Product Owners and developers to refine user stories and acceptance tests.
+Best Practices:
 
-Encourage shared responsibility for quality across the Agile Release Train (ART).
+Align testing to highest-value business outcomes (e.g., customer journeys, critical workflows).
 
-5. Transparency & Metrics
-Track and share test coverage, defect trends, and quality status via dashboards.
+Limit WIP (Work in Progress) to ensure deep, not shallow, testing.
 
-Ensure visibility of blockers and risks to support real-time decision-making.
+Focus automation on stable, high-use components first.
 
-Provide traceability from Features → Stories → Test Cases → Results.
+🔹 4. Openness
+Scrum Value: Transparency in progress and challenges.
 
-6. Customer-Centric Quality
-Ensure features meet business goals and deliver real customer value.
+Best Practices:
 
-Perform exploratory testing to uncover edge cases and usability issues.
+Share test progress, blockers, and risks daily.
 
-Validate both functional and non-functional requirements before release.
+Keep test case repositories and test coverage visible to all.
 
-7. Continuous Improvement
-Reflect in retrospectives and Inspect & Adapt workshops on what can be improved.
+Encourage collaborative story grooming with testers, developers, and product owners.
 
-Identify gaps in tooling, coverage, or quality processes and recommend solutions.
+🔹 5. Respect
+Scrum Value: Recognize each team member’s contributions.
 
-Stay current with new testing strategies and SAFe quality guidance.
+Best Practices:
+
+Treat testing as a team-wide responsibility—not a phase or handoff.
+
+Respect developer feedback on test scope; balance depth with delivery goals.
+
+Engage in respectful peer reviews and pair testing when needed.
