@@ -1,29 +1,68 @@
-Here's a concise and structured **Scrum workflow best practices guide for Quality Engineering (QE)** in a **SAFe (Scaled Agile Framework) environment**:
+Here is a **best practice Scrum workflow for Quality Engineering (QE)** within a **SAFe (Scaled Agile Framework) environment**, designed to align with both Agile principles and enterprise-level coordination:
 
 ---
 
-## ✅ Best Practice Scrum Workflow for Quality Engineering in SAFe
+ Best Practice Scrum Workflow for QE in a SAFe Environment
 
-| **Scrum Phase**           | **Quality Engineering Responsibilities**                                                            | **Best Practices**                                                                            |
-| ------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| **Backlog Refinement**    | - Review user stories for testability<br>- Define acceptance criteria (BDD)<br>- Estimate QA effort | - Collaborate early with Product Owner and Developers<br>- Use the "3 Amigos" model           |
-| **Sprint Planning**       | - Commit to QA tasks<br>- Identify test design, automation, data needs                              | - Include test planning in Definition of Ready (DoR)<br>- Plan automation in-sprint           |
-| **Daily Scrum**           | - Raise blockers early<br>- Sync test/dev progress                                                  | - Participate actively, track test progress with same Jira board as Dev                       |
-| **Development & Testing** | - Design tests<br>- Execute manual & automated tests<br>- Conduct exploratory testing               | - Shift-left: Pair with Devs, use TDD/BDD<br>- Automate functional and regression tests early |
-| **Sprint Review**         | - Demonstrate tested features<br>- Report test coverage & quality metrics                           | - Prepare test evidence for demo<br>- Highlight automation and defect trends                  |
-| **Sprint Retrospective**  | - Share QA challenges and improvement ideas                                                         | - Track recurring quality issues<br>- Improve test environments or tooling                    |
+### 1. **PI Planning (Program Increment Planning)**
 
----
+* Participate in PI Planning to align testing with team and ART objectives.
+* Identify test scope, dependencies, and automation strategy.
+* Define acceptance criteria and plan test cases for features/user stories.
+* Ensure NFRs (e.g., performance, security) are considered.
 
-## 🔁 Continuous QE Activities Across Sprints (SAFe Alignment)
+### 2. **Backlog Refinement**
 
-| **Activity**                    | **Best Practices**                                                                           |
-| ------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Definition of Done (DoD)**    | - Include code review, unit test coverage, functional and regression test completion         |
-| **Automation Integration**      | - Integrate automated tests in CI/CD pipeline<br>- Push results to Xray/Jira/Xray Enterprise |
-| **PI Planning (SAFe-specific)** | - Align testing scope with team objectives<br>- Identify cross-team dependencies             |
-| **System Demos / ART Sync**     | - Validate integrated system functionality<br>- Provide QE metrics to ART leadership         |
-| **Inspect & Adapt (I\&A)**      | - Present quality improvement stories<br>- Participate in problem-solving workshops          |
+* Collaborate with Product Owner, Developers, and System Architect.
+* Ensure testable acceptance criteria are defined (BDD preferred).
+* Estimate QA tasks (manual, automation, environments, data setup).
+* Define Definition of Ready (DoR) and Definition of Done (DoD) with QE tasks included.
 
----
- 
+### 3. **Sprint Planning**
+
+* Commit to user stories with clear QE scope and test strategy.
+* Include functional, integration, automation, and exploratory testing tasks.
+* Reserve capacity for test data setup, bug triage, and test maintenance.
+
+### 4. **Sprint Execution**
+
+* Shift testing left: Participate in design, code reviews, and pairing.
+* Develop automated tests in parallel with development (Test Pyramid model).
+* Continuously validate stories against acceptance criteria.
+* Log and triage defects promptly.
+* Validate integration with other teams (via system demos or test doubles).
+
+### 5. **Daily Scrum**
+
+* Share QE progress, blockers (environments, flaky tests, defects).
+* Align with developers for continuous feedback and early validation.
+* Use the Scrum board to visualize testing progress (e.g., “Ready for Test”, “In Test”, “Blocked”).
+
+### 6. **Story Completion**
+
+* Validate full acceptance criteria using BDD/test cases.
+* Complete all DoD QE requirements:
+
+  * Passed manual/automated tests
+  * Test evidence captured (screenshots, logs)
+  * No critical defects open
+  * Automation code committed and reviewed
+
+### 7. **Sprint Review**
+
+* Participate in demos with test evidence.
+* Highlight test coverage and defect findings.
+* Call out risks or untested areas if story wasn’t completed.
+
+### 8. **Sprint Retrospective**
+
+* Identify testing bottlenecks (e.g., late story readiness, unstable environments).
+* Improve test strategy or tooling (e.g., increase automation, improve CI/CD pipeline).
+* Encourage collective ownership of quality.
+
+### 9. **System Demos & ART Sync**
+
+* Coordinate with other teams to validate end-to-end features.
+* Participate in system demos with test results and QE metrics.
+* Raise integration defects and readiness risks.
+
