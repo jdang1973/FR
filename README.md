@@ -1,5 +1,3 @@
-
-
 Top 20 challenges when automating integration between HP ALM/OpenText and Jira Xray using the Tasktop integration tool, categorized for clarity:
 
 Integration Configuration & Mapping
@@ -72,6 +70,4 @@ Without a defined governance model, integration rules, ownership, and exception 
 	
 	20. User Training & Change Resistance
 Teams familiar with ALM may resist changes introduced by Jira Xray workflows or terminology.
-![image](https://github.com/user-attachments/assets/f0087d9c-52c7-425a-a10b-01e735b20477)
-
 
