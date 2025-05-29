@@ -77,5 +77,16 @@ Poor Candidates for Automation**
 
 ---
 
-Would you like a checklist or Excel evaluation template to score and prioritize test cases for automation?
+Criteria	Description	Score (1-Low, 5-High)	Automation Candidate? (Y/N)
+Run Frequency	Is the test case executed frequently (e.g., smoke, regression)?		
+Stability of Functionality	Is the functionality stable and not under active development?		
+Test Case Predictability	Is the expected result clear and consistent?		
+Return on Investment (ROI)	Does the time saved justify automation effort?		
+Data Requirements	Is the test data easy to generate and control?		
+Test Execution Time	Is the manual test time-consuming?		
+Cross-Browser/Device Coverage	Does it need to run across multiple environments/devices?		
+Risk and Business Impact	Does it cover a high-risk or business-critical path?		
+Environment Readiness	Is the environment suitable for automation?		
+Maintenance Overhead	Is the test case maintainable and not prone to frequent failures?		
+
 
