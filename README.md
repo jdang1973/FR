@@ -77,7 +77,8 @@ Poor Candidates for Automation**
 
 ---
 
-Criteria	Description	Score (1-Low, 5-High)	Automation Candidate? (Y/N)
+Criteria	| Description	Score (1-Low, | 5-High)	Automation Candidate? (Y/N)
+
 Run Frequency	Is the test case executed frequently (e.g., smoke, regression)?		
 Stability of Functionality	Is the functionality stable and not under active development?		
 Test Case Predictability	Is the expected result clear and consistent?		
