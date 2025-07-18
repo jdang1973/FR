@@ -1,22 +1,23 @@
-Here is a concise summary of the **FRFS (Federal Reserve Financial Services) FedACH® Services**:
+
+Here is a complete summary of the **FRFS (Federal Reserve Financial Services) Fedwire® Funds Service**:
 
 ---
 
 ### ✅ **Purpose**
 
-FedACH® is the Federal Reserve’s **Automated Clearing House (ACH) payment service**, used to process **high-volume, low-value electronic payments** in batches. It facilitates **direct deposits**, **bill payments**, and **business-to-business (B2B)** transactions efficiently and securely.
+The **Fedwire® Funds Service** is a **real-time gross settlement (RTGS)** system that enables **financial institutions** to **send and receive large-value, time-critical payments** securely and immediately using central bank money.
 
 ---
 
 ### 🧩 **Key Components**
 
-| **Component**                  | **Description**                                                                |
-| ------------------------------ | ------------------------------------------------------------------------------ |
-| **Forward Payment Processing** | Submission and clearing of ACH debit and credit entries                        |
-| **Return Item Processing**     | Handling of returned ACH entries due to errors or account issues               |
-| **Same Day ACH**               | Allows faster settlement of eligible ACH transactions on the same business day |
-| **FedACH Risk Management**     | Tools and reports to monitor payment activity and manage fraud/risk            |
-| **FedACH Services Suite**      | APIs and tools for payment file submission, inquiry, and report retrieval      |
+| **Component**                          | **Description**                                                                   |
+| -------------------------------------- | --------------------------------------------------------------------------------- |
+| **Real-Time Settlement**               | Immediate, final settlement of each payment on a transaction-by-transaction basis |
+| **High-Value Transfers**               | Supports large-value payments such as securities trades, interbank settlements    |
+| **Central Bank Money**                 | Settlement occurs using balances held at the Federal Reserve                      |
+| **Message Standards**                  | Supports both proprietary and ISO 20022 formats                                   |
+| **Funds Transfer Business Continuity** | Redundant systems and procedures to ensure uninterrupted service                  |
 
 ---
 
@@ -24,24 +25,24 @@ FedACH® is the Federal Reserve’s **Automated Clearing House (ACH) payment ser
 
 * **Commercial banks**
 * **Credit unions**
-* **Payroll processors**
-* **Billers and service providers**
-* **Government agencies (e.g., IRS, SSA)**
+* **Federal government agencies (e.g., U.S. Treasury)**
+* **Federal Home Loan Banks**
+* **Clearinghouses and settlement services**
 
 ---
 
 ### 🌟 **Benefits**
 
-* Cost-effective for high-volume payments
-* Supports both credit (e.g., direct deposit) and debit (e.g., bill pay) transactions
-* Enables **Same Day ACH** for time-sensitive payments
-* Secure and reliable batch processing
-* Enhances cash flow management for businesses and banks
+* **Immediate settlement** reduces settlement risk
+* **Final and irrevocable** payments support trust and stability
+* Ideal for **time-sensitive or high-value** transactions
+* Supports compliance with financial market infrastructure standards
+* Operates under secure and reliable Federal Reserve systems
 
 ---
 
 ### 🔗 **Official Resource**
 
-[FedACH Services – Federal Reserve](https://www.frbservices.org/financial-services/ach/index.html)
+[Fedwire Funds Service – Federal Reserve](https://www.frbservices.org/financial-services/funds/index.html)
 
  
