@@ -1,22 +1,22 @@
-Here is a summary of the **FRFS (Federal Reserve Financial Services) Check Services**:
+Here is a concise summary of the **FRFS (Federal Reserve Financial Services) FedACH® Services**:
 
 ---
 
 ### ✅ **Purpose**
 
-To provide a **centralized, secure, and efficient system** for clearing, collecting, and settling paper and electronic check payments among financial institutions in the U.S.
+FedACH® is the Federal Reserve’s **Automated Clearing House (ACH) payment service**, used to process **high-volume, low-value electronic payments** in batches. It facilitates **direct deposits**, **bill payments**, and **business-to-business (B2B)** transactions efficiently and securely.
 
 ---
 
 ### 🧩 **Key Components**
 
-| **Component**                | **Description**                                                                   |
-| ---------------------------- | --------------------------------------------------------------------------------- |
-| **Forward Check Collection** | Collects checks deposited at one institution and presents them to the paying bank |
-| **Return Item Services**     | Handles returned checks (e.g., insufficient funds, errors, or closed accounts)    |
-| **Image-Based Clearing**     | Supports digital check images (Image Cash Letters) for faster processing          |
-| **Settlement**               | Final settlement of funds between banks through the Federal Reserve               |
-| **Adjustments**              | Resolves errors such as duplicate entries or encoding mistakes                    |
+| **Component**                  | **Description**                                                                |
+| ------------------------------ | ------------------------------------------------------------------------------ |
+| **Forward Payment Processing** | Submission and clearing of ACH debit and credit entries                        |
+| **Return Item Processing**     | Handling of returned ACH entries due to errors or account issues               |
+| **Same Day ACH**               | Allows faster settlement of eligible ACH transactions on the same business day |
+| **FedACH Risk Management**     | Tools and reports to monitor payment activity and manage fraud/risk            |
+| **FedACH Services Suite**      | APIs and tools for payment file submission, inquiry, and report retrieval      |
 
 ---
 
@@ -24,24 +24,24 @@ To provide a **centralized, secure, and efficient system** for clearing, collect
 
 * **Commercial banks**
 * **Credit unions**
-* **Government agencies**
-* **Corporations** (via their financial institutions)
+* **Payroll processors**
+* **Billers and service providers**
+* **Government agencies (e.g., IRS, SSA)**
 
 ---
 
 ### 🌟 **Benefits**
 
-* Faster check clearing through electronic image exchange
-* Reduced paper handling and processing costs
-* Secure, standardized processing infrastructure
-* Real-time status updates and detailed reports
-* Compliance with the **Check 21 Act**
+* Cost-effective for high-volume payments
+* Supports both credit (e.g., direct deposit) and debit (e.g., bill pay) transactions
+* Enables **Same Day ACH** for time-sensitive payments
+* Secure and reliable batch processing
+* Enhances cash flow management for businesses and banks
 
 ---
 
 ### 🔗 **Official Resource**
 
-[FRFS Check Services – Federal Reserve](https://www.frbservices.org/financial-services/check/index.html)
+[FedACH Services – Federal Reserve](https://www.frbservices.org/financial-services/ach/index.html)
 
  
-
