@@ -1,23 +1,22 @@
-Here is a summary of the **FRFS (Federal Reserve Financial Services) FedNow® Service**:
+ summary of the **FRFS (Federal Reserve Financial Services) FedLine® Solutions**:
 
 ---
 
 ### ✅ **Purpose**
 
-The **FedNow® Service** is a **real-time payment and settlement service** developed by the Federal Reserve to enable **instant, 24/7/365 money transfers** between financial institutions in the U.S.
+The **FedLine® Solutions** provide **secure electronic access** for financial institutions to connect with and use all of the Federal Reserve Bank’s payment and information services, such as FedACH, Fedwire, FedNow, and Check Services.
 
 ---
 
 ### 🧩 **Key Components**
 
-| **Component**                 | **Description**                                                         |
-| ----------------------------- | ----------------------------------------------------------------------- |
-| **Instant Settlement**        | Funds settle in real-time, with immediate finality                      |
-| **24/7/365 Availability**     | Operates continuously—weekends and holidays included                    |
-| **Clearing and Settlement**   | Supports both the clearing of payment messages and immediate settlement |
-| **Request for Payment (RFP)** | Allows payees to send requests to initiate payment                      |
-| **Fraud and Risk Tools**      | Built-in features to help mitigate fraud and ensure payment integrity   |
-| **ISO 20022 Messaging**       | Modern standard for rich, structured payment data                       |
+| **Component**           | **Description**                                                                   |
+| ----------------------- | --------------------------------------------------------------------------------- |
+| **FedLine Web**         | Web-based interface for low-volume access to Fed services                         |
+| **FedLine Advantage**   | Software-based access for higher-volume or more automated users                   |
+| **FedLine Command**     | Command-line interface for direct host-to-host file exchange                      |
+| **FedLine Direct**      | Real-time, high-volume, encrypted IP-based connection to Federal Reserve services |
+| **Security & Controls** | Includes two-factor authentication, encryption, access management, and monitoring |
 
 ---
 
@@ -25,24 +24,30 @@ The **FedNow® Service** is a **real-time payment and settlement service** devel
 
 * **Commercial banks**
 * **Credit unions**
-* **Fintech companies**
-* **Businesses and consumers** (via participating banks)
+* **Government agencies**
+* **Clearinghouses**
+* **Service providers** (e.g., core processors)
 
 ---
 
 ### 🌟 **Benefits**
 
-* **Instant payments** available at any time
-* **Immediate funds availability** improves cash flow for individuals and businesses
-* **Supports innovation** in financial products and services
-* **Reduces dependency** on slower systems like ACH or checks
-* Helps meet **growing demand** for real-time, digital-first payment options
+* **Centralized, secure access** to all FRFS services (ACH, Fedwire, FedNow, Check, etc.)
+* **Scalable interfaces** to fit different operational sizes and needs
+* **Advanced security features** to ensure data protection and regulatory compliance
+* **Real-time access and automation** capabilities for critical payments and reports
+* **Supports business continuity** with multiple access options
 
 ---
 
 ### 🔗 **Official Resource**
 
-[FedNow Service – Federal Reserve](https://www.frbservices.org/financial-services/fednow/index.html)
+[FedLine Solutions – Federal Reserve](https://www.frbservices.org/resources/fedline-solutions/index.html)
+
+---
+
+Let me know if you'd like a comparison chart of FedLine options (Web vs. Advantage vs. Direct) or a visual diagram of how institutions connect via FedLine.
+
 
  
 
